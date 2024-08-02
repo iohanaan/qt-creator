@@ -65,7 +65,7 @@ bool checkClangdVersion(const FilePath &clangd, QString *error)
 
 QVersionNumber minimumClangdVersion()
 {
-    return QVersionNumber(17);
+    return QVersionNumber(14);
 }
 
 } // namespace Utils
